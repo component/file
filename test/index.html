@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>File</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" href="out.css" />
+  </head>
+  <body>
+    <input type="file" name="file">
+    <script src="out.js"></script>
+    <script>
+      var file = require('file');
+      var input = document.querySelector('input');
+      input.onchange = function(e){
+        var img = file(input.files[0]);
+
+        if (!img.is('image/*')) {
+          console.log('not an image!');
+          return;
+        }
+
+        var reader = img.toDataURL(function(err, str){
+          if (err) throw err;
+          var img = document.createElement('img');
+          img.src = str;
+          img.height = 300;
+          document.body.appendChild(img);
+        });
+
+        reader.on('progress', function(e){
+          console.log(e.percent);
+        });
+      };
+    </script>
+  </body>
+</html>
