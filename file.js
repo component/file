@@ -1,4 +1,3 @@
-
 /**
  * Module dependencies.
  */
@@ -84,7 +83,7 @@ File.prototype.is = function(type){
  */
 
 File.prototype.to = function(type, fn){
-  var reader = Reader();
+  var reader = new Reader(new FileReader);
   reader.on('error', fn);
   reader.on('end', function(res){ fn(null, res) });
   reader.read(this.file, type);
