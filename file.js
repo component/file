@@ -84,6 +84,7 @@ File.prototype.is = function(type){
  */
 
 File.prototype.to = function(type, fn){
+  if (!window.FileReader) return fn();
   var reader = Reader();
   reader.on('error', fn);
   reader.on('end', function(res){ fn(null, res) });
