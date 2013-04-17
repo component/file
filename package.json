@@ -1,5 +1,5 @@
 {
-  "name": "file",
+  "name": "file-component",
   "description": "File & FileReader wrappers",
   "version": "0.0.2",
   "keywords": ["file", "utility"],
