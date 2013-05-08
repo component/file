@@ -53,7 +53,7 @@ function Reader(reader) {
  * Inherits from `Emitter.prototype`.
  */
 
-Reader.prototype.__proto__ = Emitter.prototype;
+Emitter(Reader.prototype);
 
 /**
  * Onload handler.
