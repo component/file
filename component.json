@@ -1,7 +1,7 @@
 {
   "name": "file",
   "description": "File & FileReader wrappers",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "keywords": ["file", "utility"],
   "dependencies": {
     "component/emitter": "*"
