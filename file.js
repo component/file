@@ -41,7 +41,7 @@ function File(file) {
  * Inherits from `Emitter.prototype`.
  */
 
-File.prototype.__proto__ = Emitter.prototype;
+Emitter(File.prototype);
 
 /**
  * Check if the mime type matches `type`.
