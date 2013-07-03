@@ -1,4 +1,3 @@
-
 # File
 
   File component wrapping the native `File` and `FileReader` objects
@@ -6,8 +5,16 @@
 
 ## Installation
 
+node.js:
+
 ```
 $ npm install file-component
+```
+
+browser:
+
+```
+$ component install component/file
 ```
 
 ## Events
