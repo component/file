@@ -2,7 +2,10 @@
   "name": "file-component",
   "description": "File & FileReader wrappers",
   "version": "0.0.3",
-  "keywords": ["file", "utility"],
+  "keywords": [
+    "file",
+    "utility"
+  ],
   "dependencies": {
     "emitter-component": "*"
   },
@@ -12,5 +15,9 @@
       "file/file.js": "file.js",
       "file/reader.js": "reader.js"
     }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/component/file.git"
   }
 }
