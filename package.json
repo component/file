@@ -7,7 +7,7 @@
     "utility"
   ],
   "dependencies": {
-    "emitter-component": "*"
+    "component-emitter": "*"
   },
   "component": {
     "scripts": {
@@ -17,7 +17,7 @@
     }
   },
   "browser": {
-    "emitter": "emitter-component"
+    "emitter": "component-emitter"
   },
   "repository": {
     "type": "git",
