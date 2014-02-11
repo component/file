@@ -1,4 +1,10 @@
 
+0.1.1 / 2014-02-10
+==================
+
+  * package: rename to "component-file"
+  * package: use "component-emitter"
+
 0.1.0 / 2013-11-07
 ==================
 

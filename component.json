@@ -1,8 +1,11 @@
 {
   "name": "file",
   "description": "File & FileReader wrappers",
-  "version": "0.0.3",
-  "keywords": ["file", "utility"],
+  "version": "0.1.1",
+  "keywords": [
+    "file",
+    "utility"
+  ],
   "dependencies": {
     "component/emitter": "*"
   },
