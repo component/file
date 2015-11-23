@@ -1,7 +1,7 @@
 {
   "name": "component-file",
   "description": "File & FileReader wrappers",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "keywords": [
     "file",
     "utility"
